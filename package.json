@@ -9,8 +9,8 @@
     "gpull": "clasp pull",
     "gpush": "clasp push",
     "gstart": "clasp push --watch",
-    "start": "parcel src/index.html --dist-dir ./app-scripts",
-    "build": "parcel build src/index.html --dist-dir ./app-scripts"
+    "start": "parcel src/index.html --dist-dir dist",
+    "build": "parcel build src/index.html --dist-dir dist"
   },
   "keywords": [],
   "author": "",
