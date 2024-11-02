@@ -11,8 +11,26 @@ body {
   align-items: center;
   height: 100vh;
   color: #333;
+  position: relative;
 }
 
 h1 {
   color: #42b883;
+}
+@keyframes spin-dot {
+  0% {
+    transform: rotate(0deg) translateX(20px) rotate(0deg);
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    transform: rotate(360deg) translateX(20px) rotate(-360deg);
+    opacity: 1;
+  }
+}
+
+.animate-spin-dot {
+  animation: spin-dot 3s linear infinite;
 }
