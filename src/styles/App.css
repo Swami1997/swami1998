@@ -1,0 +1,12 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+.hidden {
+  display: none;
+}
+.popup .btn {
+  padding: 0.5rem 1rem;
+  color: white;
+  font-weight: bold;
+  border-radius: 0.25rem;
+}
